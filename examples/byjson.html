@@ -7,7 +7,7 @@
 <script src="../js/jquery/jquery-1.9.0.min.js"></script>
 
 <!-- <msdropdown> -->
-<link rel="stylesheet" type="text/css" href="../css/msdropdown/dd.css" />
+<link rel="stylesheet" type="text/css" href="../css/dd.css" />
 <script src="../js/msdropdown/jquery.dd.min.js"></script>
 <!-- </msdropdown> -->
 
@@ -67,12 +67,12 @@
 function createByJson() {
 	var jsonData = [					
 					{description:'Choos your payment gateway', value:'', text:'Payment Gateway'},					
-					{image:'../images/msdropdown/icons/Amex-56.png', description:'My life. My card...', value:'amex', text:'Amex'},
-					{image:'../images/msdropdown/icons/Discover-56.png', description:'It pays to Discover...', value:'Discover', text:'Discover'},
-					{image:'../images/msdropdown/icons/Mastercard-56.png', title:'For everything else...', description:'For everything else...', value:'Mastercard', text:'Mastercard'},
-					{image:'../images/msdropdown/icons/Cash-56.png', description:'Sorry not available...', value:'cash', text:'Cash on devlivery', disabled:true},
-					{image:'../images/msdropdown/icons/Visa-56.png', description:'All you need...', value:'Visa', text:'Visa'},
-					{image:'../images/msdropdown/icons/Paypal-56.png', description:'Pay and get paid...', value:'Paypal', text:'Paypal'}
+					{image:'../css/images/icons/Amex-56.png', description:'My life. My card...', value:'amex', text:'Amex'},
+					{image:'../css/images/icons/Discover-56.png', description:'It pays to Discover...', value:'Discover', text:'Discover'},
+					{image:'../css/images/icons/Mastercard-56.png', title:'For everything else...', description:'For everything else...', value:'Mastercard', text:'Mastercard'},
+					{image:'../css/images/icons/Cash-56.png', description:'Sorry not available...', value:'cash', text:'Cash on devlivery', disabled:true},
+					{image:'../css/images/icons/Visa-56.png', description:'All you need...', value:'Visa', text:'Visa'},
+					{image:'../css/images/icons/Paypal-56.png', description:'Pay and get paid...', value:'Paypal', text:'Paypal'}
 					];
 	var jsn = $("#byjson").msDropDown({byJson:{data:jsonData, name:'payments'}}).data("dd");
 }
@@ -99,12 +99,12 @@ $("#btn1").on("click", createByJson);
 function createByJson() {
 	var jsonData = [					
 					{description:'Choos your payment gateway', value:'', text:'Payment Gateway'},					
-					{image:'../images/msdropdown/icons/Amex-56.png', description:'My life. My card...', value:'amex', text:'Amex'},
-					{image:'../images/msdropdown/icons/Discover-56.png', description:'It pays to Discover...', value:'Discover', text:'Discover'},
-					{image:'../images/msdropdown/icons/Mastercard-56.png', title:'For everything else...', description:'For everything else...', value:'Mastercard', text:'Mastercard'},
-					{image:'../images/msdropdown/icons/Cash-56.png', description:'Sorry not available...', value:'cash', text:'Cash on devlivery', disabled:true},
-					{image:'../images/msdropdown/icons/Visa-56.png', description:'All you need...', value:'Visa', text:'Visa'},
-					{image:'../images/msdropdown/icons/Paypal-56.png', description:'Pay and get paid...', value:'Paypal', text:'Paypal'}
+					{image:'../css/images/icons/Amex-56.png', description:'My life. My card...', value:'amex', text:'Amex'},
+					{image:'../css/images/icons/Discover-56.png', description:'It pays to Discover...', value:'Discover', text:'Discover'},
+					{image:'../css/images/icons/Mastercard-56.png', title:'For everything else...', description:'For everything else...', value:'Mastercard', text:'Mastercard'},
+					{image:'../css/images/icons/Cash-56.png', description:'Sorry not available...', value:'cash', text:'Cash on devlivery', disabled:true},
+					{image:'../css/images/icons/Visa-56.png', description:'All you need...', value:'Visa', text:'Visa'},
+					{image:'../css/images/icons/Paypal-56.png', description:'Pay and get paid...', value:'Paypal', text:'Paypal'}
 					];
 	var jsn = $("#byjson").msDropDown({byJson:{data:jsonData, name:'payments'}}).data("dd");
 }

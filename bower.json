@@ -7,7 +7,7 @@
   "description": "image dropdown plugin",
   "main": [
     "js/msdropdown/jquery.dd.js",
-    "css/msdropdown/dd.css"
+    "css/dd.css"
   ],
   "moduleType": [],
   "keywords": [

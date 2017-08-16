@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="css/sample.css" />
 <script src="../js/jquery/jquery-1.9.0.min.js"></script>
 <!-- <msdropdown> -->
-<link rel="stylesheet" type="text/css" href="../css/msdropdown/dd.css" />
+<link rel="stylesheet" type="text/css" href="../css/dd.css" />
 <script src="../js/msdropdown/jquery.dd.min.js"></script>
 <!-- </msdropdown> -->
 </head>
